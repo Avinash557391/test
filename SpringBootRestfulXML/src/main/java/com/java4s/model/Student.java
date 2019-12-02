@@ -5,7 +5,7 @@ public class Student {
 	private int id;
 	private String name;
 	private String stnd;
-	
+	private String stnd1;
 	public Student() {
 		
 	}
@@ -15,6 +15,7 @@ public class Student {
 		this.id = id;
 		this.name = name;
 		this.stnd = stnd;
+		
 	}
 
 	public int getId() {
@@ -40,7 +41,12 @@ public class Student {
 	public void setStnd(String stnd) {
 		this.stnd = stnd;
 	}
-	
-	
+
+	public void setStnd1(String stnd1) {
+		this.stnd1 = stnd1;
+	}
+	public String getStnd1() {
+		return stnd1;
+	}
 
 }
