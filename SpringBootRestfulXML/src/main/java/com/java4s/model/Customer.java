@@ -3,9 +3,7 @@ package com.java4s.model;
 public class Customer {
 	
 	private int custNo;
-	private String name;
-	private String stnd;
-	private String stnd1;
+	private String name;	
 	private String country;
 
 	public Customer() {
@@ -41,11 +39,5 @@ public class Customer {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	public void setStnd(String stnd) {
-		this.stnd = stnd;
 	
-	}
-	public String getStnd() {
-		return stnd;
-	}
 }
