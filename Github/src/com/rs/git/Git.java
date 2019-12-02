@@ -6,7 +6,7 @@ public class Git {
 	private String name;
 	private String password;
 	private String s;
-
+	private String srinu;
 	public int getId() {
 		return id;
 	}
